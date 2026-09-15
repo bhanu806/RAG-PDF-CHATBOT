@@ -1,0 +1,19 @@
+# Secrets
+server/.env
+
+# Dependencies
+server/node_modules/
+client/node_modules/
+
+# Python environment and cache
+rag/.venv/
+rag/__pycache__/
+*.pyc
+
+# Uploaded/private documents and generated indexes
+server/uploads/
+faiss_index/
+
+# Build/cache files
+client/dist/
+.npm-cache/
